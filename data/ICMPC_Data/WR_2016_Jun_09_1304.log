@@ -1,0 +1,478 @@
+1.3604 	WARNING 	pyo audio lib was requested but not loaded: dlopen(/Applications/PsychoPy2.app/Contents/Resources/lib/python2.7/lib-dynload/_pyo.so, 2): Library not loaded: @executable_path/../Frameworks/liblo.7.dylib
+  Referenced from: /Applications/PsychoPy2.app/Contents/Resources/lib/python2.7/lib-dynload/_pyo.so
+  Reason: Incompatible library version: _pyo.so requires version 10.0.0 or later, but liblo.7.dylib provides version 9.0.0
+3746.0530 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x10e4c98c0>, name='window1', pos=[0, 0], screen=0, size=array([1280,  800]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+3746.0531 	EXP 	window1: recordFrameIntervals = False
+3746.2179 	EXP 	window1: recordFrameIntervals = True
+3746.4017 	EXP 	window1: recordFrameIntervals = False
+3746.5518 	EXP 	Created Inst_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.1, italic=False, name='Inst_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+3746.5892 	EXP 	Created practice_trial_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.1, italic=False, name='practice_trial_text', opacity=1.0, ori=0, pos=array([ 0. ,  0.5]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+3746.6590 	EXP 	Set  sound=A
+3746.6591 	EXP 	Set Sound  volume=1.000
+3746.6711 	EXP 	Created Ready_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.1, italic=False, name='Ready_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+3746.6950 	EXP 	Created During_trial_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.1, italic=False, name='During_trial_text', opacity=1.0, ori=0, pos=array([ 0. ,  0.5]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+3746.7133 	EXP 	Set  sound=A
+3746.7133 	EXP 	Set Sound  volume=1.000
+3746.7248 	EXP 	Created go_next_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.1, italic=False, name='go_next_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+3746.7401 	EXP 	Created bye_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.1, italic=False, name='bye_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+3746.7676 	EXP 	Inst_text: autoDraw = True
+3810.2960 	DATA 	Keypress: space
+3810.3093 	EXP 	Imported conditions_practice.csv as conditions, 1 conditions, 2 params
+3810.3102 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+3810.3106 	EXP 	New trial (rep=0, index=0): {'snd': u'seq4v_practice.wav', 'cond': u'4v'}
+3810.3229 	EXP 	Set  sound=seq4v_practice.wav
+3810.3411 	EXP 	Inst_text: autoDraw = False
+3810.3411 	EXP 	practice_trial_text: autoDraw = True
+3815.3271 	EXP 	Sound  started
+3909.5810 	DATA 	Keypress: space
+3912.4297 	DATA 	Keypress: down
+3912.4302 	DATA 	Keypress: up
+3912.4306 	EXP 	Sound  stopped
+3912.4307 	EXP 	Sound  stopped
+3912.4465 	EXP 	practice_trial_text: autoDraw = False
+3912.4465 	EXP 	Ready_text: autoDraw = True
+3914.8482 	DATA 	Keypress: space
+3914.8848 	EXP 	Imported conditions.csv as conditions, 4 conditions, 2 params
+3914.8857 	EXP 	Created sequence: random, trialTypes=4, nReps=2, seed=None
+3914.8862 	EXP 	New trial (rep=0, index=0): {'snd': u'seq5c_100sec.wav', 'cond': u'5c'}
+3914.9078 	EXP 	Set  sound=seq5c_100sec.wav
+3914.9079 	EXP 	window1: recordFrameIntervals = False
+3914.9305 	EXP 	Ready_text: autoDraw = False
+3914.9306 	EXP 	window1: recordFrameIntervals = False
+3915.9471 	EXP 	During_trial_text: autoDraw = True
+3919.8988 	EXP 	Sound  started
+3925.4693 	DATA 	Keypress: space
+3928.9870 	DATA 	Keypress: space
+3935.3391 	DATA 	Keypress: space
+3938.9735 	DATA 	Keypress: space
+3945.4771 	DATA 	Keypress: space
+3949.9446 	DATA 	Keypress: space
+3955.3968 	DATA 	Keypress: space
+3959.9649 	DATA 	Keypress: space
+3965.2505 	DATA 	Keypress: space
+3970.6028 	DATA 	Keypress: space
+3974.9371 	DATA 	Keypress: space
+3980.1400 	DATA 	Keypress: space
+3985.2077 	DATA 	Keypress: space
+3988.9084 	DATA 	Keypress: space
+3995.3447 	DATA 	Keypress: space
+3998.9460 	DATA 	Keypress: space
+4005.2984 	DATA 	Keypress: space
+4008.9665 	DATA 	Keypress: space
+4015.6022 	DATA 	Keypress: space
+4019.8862 	EXP 	Sound  stopped
+4019.9020 	EXP 	During_trial_text: autoDraw = False
+4020.4022 	EXP 	go_next_text: autoDraw = True
+4027.7745 	DATA 	Keypress: space
+4027.7750 	EXP 	Sound  stopped
+4027.7761 	EXP 	New trial (rep=0, index=1): {'snd': u'seq4c_100sec.wav', 'cond': u'4c'}
+4027.8348 	EXP 	Set  sound=seq4c_100sec.wav
+4027.8350 	EXP 	window1: recordFrameIntervals = False
+4027.8551 	EXP 	During_trial_text: autoDraw = False
+4027.8551 	EXP 	go_next_text: autoDraw = False
+4027.8553 	EXP 	window1: recordFrameIntervals = False
+4028.8730 	EXP 	During_trial_text: autoDraw = True
+4032.7907 	EXP 	Sound  started
+4037.1772 	DATA 	Keypress: space
+4041.0786 	DATA 	Keypress: space
+4044.6970 	DATA 	Keypress: space
+4048.7484 	DATA 	Keypress: space
+4052.7998 	DATA 	Keypress: space
+4057.0193 	DATA 	Keypress: space
+4060.7028 	DATA 	Keypress: space
+4064.8216 	DATA 	Keypress: space
+4068.7885 	DATA 	Keypress: space
+4073.1076 	DATA 	Keypress: space
+4076.8264 	DATA 	Keypress: space
+4080.8099 	DATA 	Keypress: space
+4084.8283 	DATA 	Keypress: space
+4088.8303 	DATA 	Keypress: space
+4092.7646 	DATA 	Keypress: space
+4096.8488 	DATA 	Keypress: space
+4100.8678 	DATA 	Keypress: space
+4104.8188 	DATA 	Keypress: space
+4108.7372 	DATA 	Keypress: space
+4112.7719 	DATA 	Keypress: space
+4116.7901 	DATA 	Keypress: space
+4121.4750 	DATA 	Keypress: space
+4124.8272 	DATA 	Keypress: space
+4128.7451 	DATA 	Keypress: space
+4132.7784 	EXP 	Sound  stopped
+4132.7942 	EXP 	During_trial_text: autoDraw = False
+4132.8294 	DATA 	Keypress: space
+4133.2948 	EXP 	go_next_text: autoDraw = True
+4149.2027 	DATA 	Keypress: space
+4149.2176 	EXP 	Sound  stopped
+4149.2185 	EXP 	New trial (rep=0, index=2): {'snd': u'seq5v_100sec.wav', 'cond': u'5v'}
+4149.2420 	EXP 	Set  sound=seq5v_100sec.wav
+4149.2421 	EXP 	window1: recordFrameIntervals = False
+4149.2504 	EXP 	During_trial_text: autoDraw = False
+4149.2504 	EXP 	go_next_text: autoDraw = False
+4149.2506 	EXP 	window1: recordFrameIntervals = False
+4150.2674 	EXP 	During_trial_text: autoDraw = True
+4154.2194 	EXP 	Sound  started
+4158.2717 	DATA 	Keypress: space
+4162.2073 	DATA 	Keypress: space
+4164.6916 	DATA 	Keypress: space
+4168.2921 	DATA 	Keypress: space
+4171.9774 	DATA 	Keypress: space
+4177.6299 	DATA 	Keypress: space
+4181.2973 	DATA 	Keypress: space
+4188.4491 	DATA 	Keypress: space
+4193.2192 	DATA 	Keypress: space
+4196.6364 	DATA 	Keypress: space
+4200.0226 	DATA 	Keypress: space
+4206.6398 	DATA 	Keypress: space
+4211.6092 	DATA 	Keypress: space
+4214.6601 	DATA 	Keypress: space
+4219.6794 	DATA 	Keypress: space
+4225.5810 	DATA 	Keypress: space
+4229.2821 	DATA 	Keypress: space
+4235.5516 	DATA 	Keypress: space
+4239.8859 	DATA 	Keypress: space
+4245.7203 	DATA 	Keypress: space
+4250.0224 	DATA 	Keypress: space
+4254.2067 	EXP 	Sound  stopped
+4254.2227 	EXP 	During_trial_text: autoDraw = False
+4254.7398 	EXP 	go_next_text: autoDraw = True
+4257.8601 	DATA 	Keypress: space
+4257.8606 	EXP 	Sound  stopped
+4257.8614 	EXP 	New trial (rep=0, index=3): {'snd': u'seq4v_100sec.wav', 'cond': u'4v'}
+4257.9204 	EXP 	Set  sound=seq4v_100sec.wav
+4257.9205 	EXP 	window1: recordFrameIntervals = False
+4257.9407 	EXP 	During_trial_text: autoDraw = False
+4257.9407 	EXP 	go_next_text: autoDraw = False
+4257.9409 	EXP 	window1: recordFrameIntervals = False
+4258.9583 	EXP 	During_trial_text: autoDraw = True
+4262.8767 	EXP 	Sound  started
+4266.3466 	DATA 	Keypress: space
+4271.2809 	DATA 	Keypress: space
+4277.5340 	DATA 	Keypress: space
+4281.9179 	DATA 	Keypress: space
+4285.3194 	DATA 	Keypress: space
+4288.8533 	DATA 	Keypress: space
+4290.3215 	DATA 	Keypress: space
+4293.6395 	DATA 	Keypress: space
+4296.6069 	DATA 	Keypress: space
+4300.1419 	DATA 	Keypress: space
+4302.7429 	DATA 	Keypress: space
+4305.5273 	DATA 	Keypress: space
+4309.9952 	DATA 	Keypress: space
+4312.8133 	DATA 	Keypress: space
+4317.6481 	DATA 	Keypress: space
+4320.9500 	DATA 	Keypress: space
+4329.6026 	DATA 	Keypress: space
+4332.9386 	DATA 	Keypress: space
+4336.6559 	DATA 	Keypress: space
+4337.6721 	DATA 	Mouse: wheel shift=(0,0), pos=(615,364)
+4338.8723 	DATA 	Mouse: wheel shift=(0,0), pos=(615,364)
+4339.9234 	DATA 	Keypress: space
+4341.7235 	DATA 	Keypress: space
+4344.9762 	DATA 	Keypress: space
+4349.9610 	DATA 	Keypress: space
+4355.5303 	DATA 	Keypress: space
+4357.6459 	DATA 	Keypress: space
+4362.8633 	EXP 	Sound  stopped
+4362.8802 	EXP 	During_trial_text: autoDraw = False
+4363.3802 	EXP 	go_next_text: autoDraw = True
+4366.8162 	DATA 	Keypress: space
+4366.8166 	EXP 	Sound  stopped
+4366.8172 	EXP 	New trial (rep=1, index=0): {'snd': u'seq5c_100sec.wav', 'cond': u'5c'}
+4366.8273 	EXP 	Set  sound=seq5c_100sec.wav
+4366.8274 	EXP 	window1: recordFrameIntervals = False
+4366.8484 	EXP 	During_trial_text: autoDraw = False
+4366.8484 	EXP 	go_next_text: autoDraw = False
+4366.8486 	EXP 	window1: recordFrameIntervals = False
+4367.8659 	EXP 	During_trial_text: autoDraw = True
+4371.8338 	EXP 	Sound  started
+4377.5042 	DATA 	Keypress: space
+4380.8057 	DATA 	Keypress: space
+4387.4069 	DATA 	Keypress: space
+4392.6094 	DATA 	Keypress: space
+4397.4618 	DATA 	Keypress: space
+4402.8464 	DATA 	Keypress: space
+4407.2828 	DATA 	Keypress: space
+4411.8016 	DATA 	Keypress: space
+4415.8774 	DATA 	Keypress: space
+4422.3539 	DATA 	Keypress: space
+4427.0723 	DATA 	Keypress: space
+4432.8246 	DATA 	Keypress: space
+4437.5943 	DATA 	Keypress: space
+4442.5283 	DATA 	Keypress: space
+4448.0640 	DATA 	Keypress: space
+4451.7313 	DATA 	Keypress: space
+4457.3004 	DATA 	Keypress: space
+4462.3861 	DATA 	Keypress: space
+4465.9038 	DATA 	Keypress: space
+4471.8208 	EXP 	Sound  stopped
+4471.8378 	EXP 	During_trial_text: autoDraw = False
+4472.3379 	EXP 	go_next_text: autoDraw = True
+4475.2076 	DATA 	Keypress: space
+4475.2080 	EXP 	Sound  stopped
+4475.2087 	EXP 	New trial (rep=1, index=1): {'snd': u'seq4v_100sec.wav', 'cond': u'4v'}
+4475.2197 	EXP 	Set  sound=seq4v_100sec.wav
+4475.2198 	EXP 	window1: recordFrameIntervals = False
+4475.2387 	EXP 	During_trial_text: autoDraw = False
+4475.2387 	EXP 	go_next_text: autoDraw = False
+4475.2389 	EXP 	window1: recordFrameIntervals = False
+4476.2563 	EXP 	During_trial_text: autoDraw = True
+4480.2243 	EXP 	Sound  started
+4483.6605 	DATA 	Keypress: space
+4487.2956 	DATA 	Keypress: space
+4491.2628 	DATA 	Keypress: space
+4494.6474 	DATA 	Keypress: space
+4498.2656 	DATA 	Keypress: space
+4502.8678 	DATA 	Keypress: space
+4507.2518 	DATA 	Keypress: space
+4510.6037 	DATA 	Keypress: space
+4513.9709 	DATA 	Keypress: space
+4519.6731 	DATA 	Keypress: space
+4522.7749 	DATA 	Keypress: space
+4527.0927 	DATA 	Keypress: space
+4530.2106 	DATA 	Keypress: space
+4534.6959 	DATA 	Keypress: space
+4538.0302 	DATA 	Keypress: space
+4541.6655 	DATA 	Keypress: space
+4546.9685 	DATA 	Keypress: space
+4552.9196 	DATA 	Keypress: space
+4558.8221 	DATA 	Keypress: space
+4565.0246 	DATA 	Keypress: space
+4573.9766 	DATA 	Keypress: space
+4580.2118 	EXP 	Sound  stopped
+4580.2285 	EXP 	During_trial_text: autoDraw = False
+4580.3625 	DATA 	Keypress: space
+4580.7283 	EXP 	go_next_text: autoDraw = True
+4585.0486 	DATA 	Keypress: space
+4585.0490 	EXP 	Sound  stopped
+4585.0496 	EXP 	New trial (rep=1, index=2): {'snd': u'seq5v_100sec.wav', 'cond': u'5v'}
+4585.0599 	EXP 	Set  sound=seq5v_100sec.wav
+4585.0600 	EXP 	window1: recordFrameIntervals = False
+4585.0791 	EXP 	During_trial_text: autoDraw = False
+4585.0791 	EXP 	go_next_text: autoDraw = False
+4585.0792 	EXP 	window1: recordFrameIntervals = False
+4586.0965 	EXP 	During_trial_text: autoDraw = True
+4590.0648 	EXP 	Sound  started
+4596.0359 	DATA 	Keypress: space
+4600.6534 	DATA 	Keypress: space
+4607.4226 	DATA 	Keypress: space
+4613.4260 	DATA 	Keypress: space
+4616.6436 	DATA 	Keypress: space
+4620.5112 	DATA 	Keypress: space
+4625.4458 	DATA 	Keypress: space
+4632.4822 	DATA 	Keypress: space
+4642.3713 	DATA 	Keypress: space
+4647.4551 	DATA 	Keypress: space
+4655.6909 	DATA 	Keypress: space
+4661.4435 	DATA 	Keypress: space
+4666.5620 	DATA 	Keypress: space
+4671.6149 	DATA 	Keypress: space
+4675.7824 	DATA 	Keypress: space
+4681.9855 	DATA 	Keypress: space
+4685.9869 	DATA 	Keypress: space
+4690.6834 	EXP 	Sound  stopped
+4690.6997 	EXP 	During_trial_text: autoDraw = False
+4690.6997 	EXP 	go_next_text: autoDraw = True
+4693.8529 	DATA 	Keypress: space
+4693.8533 	EXP 	Sound  stopped
+4693.8540 	EXP 	New trial (rep=1, index=3): {'snd': u'seq4c_100sec.wav', 'cond': u'4c'}
+4693.8648 	EXP 	Set  sound=seq4c_100sec.wav
+4693.8649 	EXP 	window1: recordFrameIntervals = False
+4693.8839 	EXP 	During_trial_text: autoDraw = False
+4693.8839 	EXP 	go_next_text: autoDraw = False
+4693.8840 	EXP 	window1: recordFrameIntervals = False
+4694.9020 	EXP 	During_trial_text: autoDraw = True
+4698.8692 	EXP 	Sound  started
+4703.3060 	DATA 	Keypress: space
+4707.3259 	DATA 	Keypress: space
+4711.2429 	DATA 	Keypress: space
+4714.9279 	DATA 	Keypress: space
+4718.9787 	DATA 	Keypress: space
+4722.9638 	DATA 	Keypress: space
+4726.9149 	DATA 	Keypress: space
+4731.2836 	DATA 	Keypress: space
+4734.9180 	DATA 	Keypress: space
+4738.8362 	DATA 	Keypress: space
+4742.9543 	DATA 	Keypress: space
+4744.9880 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4745.1549 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4745.5385 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4745.6876 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4746.0211 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4746.1715 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4746.5217 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4746.6382 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4746.9388 	DATA 	Keypress: space
+4747.4731 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4747.7383 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4748.0217 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4748.1556 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4748.5222 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4748.6404 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4749.0058 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4749.1897 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4749.5229 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4749.6561 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4750.0061 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4750.1387 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4750.5228 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4750.6064 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4750.9413 	DATA 	Keypress: space
+4751.5070 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4751.6739 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4752.0070 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4752.1731 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4752.5237 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4752.6239 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4753.0071 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4753.1245 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4754.0070 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4754.1741 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4754.5084 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4754.6082 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4754.9246 	DATA 	Keypress: space
+4755.4923 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4755.6748 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4756.0409 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4756.1596 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4756.9595 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4757.1252 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4757.4925 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4757.6259 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4757.9919 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4758.1259 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4758.5103 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4758.6091 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4758.9260 	DATA 	Keypress: space
+4759.5094 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4759.6430 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4760.5609 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4760.6106 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4761.0274 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4761.0771 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4761.4933 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4761.5775 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4762.0110 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4762.0766 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4762.5109 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4762.5617 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4762.9285 	DATA 	Keypress: space
+4763.5118 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4763.6116 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4764.0446 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4764.0782 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4764.5114 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4764.5613 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4765.0119 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4765.0622 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4765.5283 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4765.5781 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4766.0626 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4766.0955 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4766.5626 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4766.6132 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4767.0460 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4767.0955 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4767.4465 	DATA 	Keypress: space
+4768.0123 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4768.0960 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4768.5137 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4768.6123 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4768.9967 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4769.0804 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4769.9967 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4770.0967 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4770.9154 	DATA 	Keypress: space
+4771.5138 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4771.5825 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4772.0306 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4772.0979 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4772.5146 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4772.5977 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4772.9974 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4773.0814 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4773.4811 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4773.5980 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4773.9813 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4774.0483 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4774.5153 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4774.5647 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4774.9329 	DATA 	Keypress: space
+4775.4821 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4775.6488 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4776.0656 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4776.1156 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4776.5841 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4776.5996 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4777.0323 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4777.0821 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4777.4826 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4777.6320 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4777.9994 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4778.1160 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4778.4828 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4778.5835 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4778.9178 	DATA 	Keypress: space
+4779.4835 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4779.6520 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4780.0352 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4780.1826 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4780.5173 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4780.6341 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4781.5344 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4781.6193 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4782.0032 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4782.1344 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4782.5854 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4782.6195 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4782.9529 	DATA 	Keypress: space
+4783.4859 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4783.6516 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4784.0348 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4784.1352 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4785.0030 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4785.1690 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4785.4858 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4785.6859 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4786.0364 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4786.2023 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4786.5531 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4786.6546 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4786.9538 	DATA 	Keypress: space
+4787.5040 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4787.7201 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4788.0196 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4788.1541 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4788.5041 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4788.7032 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4789.0206 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4789.2197 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4789.5200 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4789.7213 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4790.5205 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4790.6546 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4790.9218 	DATA 	Keypress: space
+4791.4543 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4791.6882 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4792.0058 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4792.1554 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4792.5220 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4792.6877 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4793.5392 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4793.7398 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4794.9732 	DATA 	Keypress: space
+4797.0087 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4797.2398 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4798.0239 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4798.1756 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4798.5240 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4798.6572 	DATA 	Mouse: wheel shift=(0,0), pos=(581,365)
+4798.8576 	EXP 	Sound  stopped
+4798.8734 	EXP 	During_trial_text: autoDraw = False
+4798.9420 	DATA 	Keypress: space
+4799.3744 	EXP 	go_next_text: autoDraw = True
+4803.4606 	DATA 	Keypress: space
+4803.4613 	EXP 	Sound  stopped
+4803.4752 	EXP 	During_trial_text: autoDraw = False
+4803.4752 	EXP 	go_next_text: autoDraw = False
+4803.4752 	EXP 	bye_text: autoDraw = True
+4804.5090 	EXP 	window1: mouseVisible = True

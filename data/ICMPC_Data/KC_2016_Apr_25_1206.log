@@ -1,0 +1,333 @@
+1.1253 	WARNING 	pyo audio lib was requested but not loaded: dlopen(/Applications/PsychoPy2.app/Contents/Resources/lib/python2.7/lib-dynload/_pyo.so, 2): Library not loaded: @executable_path/../Frameworks/liblo.7.dylib
+  Referenced from: /Applications/PsychoPy2.app/Contents/Resources/lib/python2.7/lib-dynload/_pyo.so
+  Reason: Incompatible library version: _pyo.so requires version 10.0.0 or later, but liblo.7.dylib provides version 9.0.0
+67.5893 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x10eaa15a8>, name='window1', pos=[0, 0], screen=0, size=array([1280,  800]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+67.5894 	EXP 	window1: recordFrameIntervals = False
+67.7549 	EXP 	window1: recordFrameIntervals = True
+67.9377 	EXP 	window1: recordFrameIntervals = False
+68.0710 	EXP 	Created Inst_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.1, italic=False, name='Inst_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+68.1028 	EXP 	Created practice_trial_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.1, italic=False, name='practice_trial_text', opacity=1.0, ori=0, pos=array([ 0. ,  0.5]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+68.1621 	EXP 	Set  sound=A
+68.1621 	EXP 	Set Sound  volume=1.000
+68.1729 	EXP 	Created Ready_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.1, italic=False, name='Ready_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+68.1944 	EXP 	Created During_trial_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.1, italic=False, name='During_trial_text', opacity=1.0, ori=0, pos=array([ 0. ,  0.5]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+68.2130 	EXP 	Set  sound=A
+68.2130 	EXP 	Set Sound  volume=1.000
+68.2244 	EXP 	Created go_next_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.1, italic=False, name='go_next_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+68.2381 	EXP 	Created bye_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.1, italic=False, name='bye_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+68.2546 	EXP 	Inst_text: autoDraw = True
+650.8802 	DATA 	Keypress: space
+650.8836 	EXP 	Imported conditions_practice.csv as conditions, 1 conditions, 2 params
+650.8842 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+650.8850 	EXP 	New trial (rep=0, index=0): {'snd': u'seq4v_practice.wav', 'cond': u'4v'}
+650.8949 	EXP 	Set  sound=seq4v_practice.wav
+650.9089 	EXP 	Inst_text: autoDraw = False
+650.9089 	EXP 	practice_trial_text: autoDraw = True
+655.8925 	EXP 	Sound  started
+659.8138 	DATA 	Keypress: space
+664.3978 	DATA 	Keypress: space
+666.4500 	DATA 	Keypress: space
+670.4349 	DATA 	Keypress: space
+676.7363 	DATA 	Keypress: space
+679.4701 	DATA 	Keypress: down
+679.4705 	EXP 	Sound  stopped
+679.4706 	EXP 	Sound  stopped
+679.4849 	EXP 	practice_trial_text: autoDraw = False
+679.4849 	EXP 	Ready_text: autoDraw = True
+682.0888 	DATA 	Keypress: space
+682.0919 	EXP 	Imported conditions.csv as conditions, 4 conditions, 2 params
+682.0925 	EXP 	Created sequence: random, trialTypes=4, nReps=2, seed=None
+682.0931 	EXP 	New trial (rep=0, index=0): {'snd': u'seq5v_100sec.wav', 'cond': u'5v'}
+682.1079 	EXP 	Set  sound=seq5v_100sec.wav
+682.1079 	EXP 	window1: recordFrameIntervals = False
+682.1196 	EXP 	Ready_text: autoDraw = False
+682.1197 	EXP 	window1: recordFrameIntervals = False
+683.1363 	EXP 	During_trial_text: autoDraw = True
+687.1043 	EXP 	Sound  started
+694.5927 	DATA 	Keypress: space
+697.5615 	DATA 	Keypress: space
+704.5466 	DATA 	Keypress: space
+710.5496 	DATA 	Keypress: space
+713.5155 	DATA 	Keypress: space
+717.5184 	DATA 	Keypress: space
+718.3680 	DATA 	Keypress: space
+722.5035 	DATA 	Keypress: space
+729.5584 	DATA 	Keypress: space
+732.7556 	DATA 	Keypress: space
+739.4922 	DATA 	Keypress: space
+744.5275 	DATA 	Keypress: space
+747.8124 	DATA 	Keypress: space
+752.5474 	DATA 	Keypress: space
+758.5826 	DATA 	Keypress: space
+762.5851 	DATA 	Keypress: space
+768.9366 	DATA 	Keypress: space
+772.9383 	DATA 	Keypress: space
+778.7910 	DATA 	Keypress: space
+782.7584 	DATA 	Keypress: space
+787.0925 	EXP 	Sound  stopped
+787.1082 	EXP 	During_trial_text: autoDraw = False
+787.6240 	EXP 	go_next_text: autoDraw = True
+789.8444 	DATA 	Keypress: space
+789.8450 	EXP 	Sound  stopped
+789.8469 	EXP 	New trial (rep=0, index=1): {'snd': u'seq4v_100sec.wav', 'cond': u'4v'}
+789.8602 	EXP 	Set  sound=seq4v_100sec.wav
+789.8603 	EXP 	window1: recordFrameIntervals = False
+789.8757 	EXP 	During_trial_text: autoDraw = False
+789.8757 	EXP 	go_next_text: autoDraw = False
+789.8759 	EXP 	window1: recordFrameIntervals = False
+790.8925 	EXP 	During_trial_text: autoDraw = True
+794.8610 	EXP 	Sound  started
+798.2641 	DATA 	Keypress: space
+803.3001 	DATA 	Keypress: space
+805.4185 	DATA 	Keypress: space
+809.3529 	DATA 	Keypress: space
+814.8371 	DATA 	Keypress: space
+817.3213 	DATA 	Keypress: space
+822.3733 	DATA 	Keypress: space
+828.2431 	DATA 	Keypress: space
+834.2606 	DATA 	Keypress: space
+837.3294 	DATA 	Keypress: space
+841.4634 	DATA 	Keypress: space
+844.2822 	DATA 	Keypress: space
+849.2829 	DATA 	Keypress: space
+852.2356 	DATA 	Keypress: space
+856.3696 	DATA 	Keypress: space
+861.2881 	DATA 	Keypress: space
+867.4902 	DATA 	Keypress: space
+871.2586 	DATA 	Keypress: space
+873.5087 	DATA 	Keypress: space
+879.2280 	DATA 	Keypress: space
+881.3623 	DATA 	Keypress: space
+887.3489 	DATA 	Keypress: space
+889.3155 	DATA 	Keypress: space
+894.8474 	EXP 	Sound  stopped
+894.8651 	EXP 	During_trial_text: autoDraw = False
+895.1504 	DATA 	Keypress: space
+895.3654 	EXP 	go_next_text: autoDraw = True
+897.7021 	DATA 	Keypress: space
+897.7028 	EXP 	Sound  stopped
+897.7040 	EXP 	New trial (rep=0, index=2): {'snd': u'seq5c_100sec.wav', 'cond': u'5c'}
+897.7173 	EXP 	Set  sound=seq5c_100sec.wav
+897.7175 	EXP 	window1: recordFrameIntervals = False
+897.7324 	EXP 	During_trial_text: autoDraw = False
+897.7324 	EXP 	go_next_text: autoDraw = False
+897.7325 	EXP 	window1: recordFrameIntervals = False
+898.7491 	EXP 	During_trial_text: autoDraw = True
+902.7174 	EXP 	Sound  started
+908.1894 	DATA 	Keypress: space
+913.1407 	DATA 	Keypress: space
+918.0925 	DATA 	Keypress: space
+923.1103 	DATA 	Keypress: space
+927.1452 	DATA 	Keypress: space
+933.4139 	DATA 	Keypress: space
+937.3159 	DATA 	Keypress: space
+943.1518 	DATA 	Keypress: space
+948.1363 	DATA 	Keypress: space
+953.2882 	DATA 	Keypress: space
+958.1563 	DATA 	Keypress: space
+963.3758 	DATA 	Keypress: space
+968.0600 	DATA 	Keypress: space
+973.0952 	DATA 	Keypress: space
+978.1643 	DATA 	Keypress: space
+983.1493 	DATA 	Keypress: space
+988.2025 	DATA 	Keypress: space
+992.7028 	DATA 	Keypress: space
+998.0548 	DATA 	Keypress: space
+1002.7044 	EXP 	Sound  stopped
+1002.7207 	EXP 	During_trial_text: autoDraw = False
+1003.2209 	EXP 	go_next_text: autoDraw = True
+1004.9748 	DATA 	Keypress: space
+1004.9754 	EXP 	Sound  stopped
+1004.9765 	EXP 	New trial (rep=0, index=3): {'snd': u'seq4c_100sec.wav', 'cond': u'4c'}
+1004.9890 	EXP 	Set  sound=seq4c_100sec.wav
+1004.9891 	EXP 	window1: recordFrameIntervals = False
+1005.0055 	EXP 	During_trial_text: autoDraw = False
+1005.0055 	EXP 	go_next_text: autoDraw = False
+1005.0056 	EXP 	window1: recordFrameIntervals = False
+1006.0217 	EXP 	During_trial_text: autoDraw = True
+1009.9903 	EXP 	Sound  started
+1014.4939 	DATA 	Keypress: space
+1018.3461 	DATA 	Keypress: space
+1022.2969 	DATA 	Keypress: space
+1026.2813 	DATA 	Keypress: space
+1030.2497 	DATA 	Keypress: space
+1034.2846 	DATA 	Keypress: space
+1038.2867 	DATA 	Keypress: space
+1042.2047 	DATA 	Keypress: space
+1046.2558 	DATA 	Keypress: space
+1050.3739 	DATA 	Keypress: space
+1054.2588 	DATA 	Keypress: space
+1058.3440 	DATA 	Keypress: space
+1062.0959 	DATA 	Keypress: space
+1065.9969 	DATA 	Keypress: space
+1070.0150 	DATA 	Keypress: space
+1073.9833 	DATA 	Keypress: space
+1077.9841 	DATA 	Keypress: space
+1081.9869 	DATA 	Keypress: space
+1085.9715 	DATA 	Keypress: space
+1090.0227 	DATA 	Keypress: space
+1093.9568 	DATA 	Keypress: space
+1097.9758 	DATA 	Keypress: space
+1101.9932 	DATA 	Keypress: space
+1105.9945 	DATA 	Keypress: space
+1109.9623 	DATA 	Keypress: space
+1109.9770 	EXP 	Sound  stopped
+1109.9933 	EXP 	During_trial_text: autoDraw = False
+1110.4936 	EXP 	go_next_text: autoDraw = True
+1111.8969 	DATA 	Keypress: space
+1111.8975 	EXP 	Sound  stopped
+1111.8987 	EXP 	New trial (rep=1, index=0): {'snd': u'seq4c_100sec.wav', 'cond': u'4c'}
+1111.9115 	EXP 	Set  sound=seq4c_100sec.wav
+1111.9116 	EXP 	window1: recordFrameIntervals = False
+1111.9279 	EXP 	During_trial_text: autoDraw = False
+1111.9279 	EXP 	go_next_text: autoDraw = False
+1111.9281 	EXP 	window1: recordFrameIntervals = False
+1112.9448 	EXP 	During_trial_text: autoDraw = True
+1116.9140 	EXP 	Sound  started
+1121.2003 	DATA 	Keypress: space
+1125.0514 	DATA 	Keypress: space
+1128.8696 	DATA 	Keypress: space
+1132.8704 	DATA 	Keypress: space
+1136.8730 	DATA 	Keypress: space
+1140.8246 	DATA 	Keypress: space
+1144.8588 	DATA 	Keypress: space
+1148.8441 	DATA 	Keypress: space
+1152.8455 	DATA 	Keypress: space
+1156.8650 	DATA 	Keypress: space
+1160.8313 	DATA 	Keypress: space
+1163.3488 	DATA 	Keypress: space
+1164.8496 	DATA 	Keypress: space
+1168.9343 	DATA 	Keypress: space
+1172.8698 	DATA 	Keypress: space
+1176.8873 	DATA 	Keypress: space
+1180.8400 	DATA 	Keypress: space
+1184.8740 	DATA 	Keypress: space
+1188.9087 	DATA 	Keypress: space
+1192.8765 	DATA 	Keypress: space
+1196.8881 	DATA 	Keypress: space
+1200.8292 	DATA 	Keypress: space
+1204.8138 	DATA 	Keypress: space
+1208.8824 	DATA 	Keypress: space
+1212.8520 	DATA 	Keypress: space
+1216.8700 	DATA 	Keypress: space
+1216.8998 	EXP 	Sound  stopped
+1216.9172 	EXP 	During_trial_text: autoDraw = False
+1217.4171 	EXP 	go_next_text: autoDraw = True
+1218.6366 	DATA 	Keypress: space
+1218.6372 	EXP 	Sound  stopped
+1218.6384 	EXP 	New trial (rep=1, index=1): {'snd': u'seq5c_100sec.wav', 'cond': u'5c'}
+1218.6510 	EXP 	Set  sound=seq5c_100sec.wav
+1218.6511 	EXP 	window1: recordFrameIntervals = False
+1218.6678 	EXP 	During_trial_text: autoDraw = False
+1218.6678 	EXP 	go_next_text: autoDraw = False
+1218.6679 	EXP 	window1: recordFrameIntervals = False
+1219.6842 	EXP 	During_trial_text: autoDraw = True
+1223.6523 	EXP 	Sound  started
+1227.7225 	DATA 	Keypress: space
+1229.5230 	DATA 	Keypress: space
+1233.8248 	DATA 	Keypress: space
+1237.9106 	DATA 	Keypress: space
+1238.9266 	DATA 	Keypress: space
+1243.6788 	DATA 	Keypress: space
+1248.6808 	DATA 	Keypress: space
+1253.6998 	DATA 	Keypress: space
+1258.6841 	DATA 	Keypress: space
+1263.7201 	DATA 	Keypress: space
+1268.6885 	DATA 	Keypress: space
+1274.4893 	DATA 	Keypress: space
+1277.8582 	DATA 	Keypress: space
+1278.8249 	DATA 	Keypress: space
+1282.7774 	DATA 	Keypress: space
+1284.0601 	DATA 	Keypress: space
+1287.8776 	DATA 	Keypress: space
+1289.0131 	DATA 	Keypress: space
+1293.6641 	DATA 	Keypress: space
+1297.8154 	DATA 	Keypress: space
+1298.5986 	DATA 	Keypress: space
+1304.1175 	DATA 	Keypress: space
+1309.1869 	DATA 	Keypress: space
+1314.0389 	DATA 	Keypress: space
+1319.0742 	DATA 	Keypress: space
+1322.9587 	DATA 	Keypress: space
+1323.6393 	EXP 	Sound  stopped
+1323.6558 	EXP 	During_trial_text: autoDraw = False
+1324.1568 	EXP 	go_next_text: autoDraw = True
+1325.6265 	DATA 	Keypress: space
+1325.6271 	EXP 	Sound  stopped
+1325.6283 	EXP 	New trial (rep=1, index=2): {'snd': u'seq4v_100sec.wav', 'cond': u'4v'}
+1325.6411 	EXP 	Set  sound=seq4v_100sec.wav
+1325.6412 	EXP 	window1: recordFrameIntervals = False
+1325.6566 	EXP 	During_trial_text: autoDraw = False
+1325.6566 	EXP 	go_next_text: autoDraw = False
+1325.6568 	EXP 	window1: recordFrameIntervals = False
+1326.6737 	EXP 	During_trial_text: autoDraw = True
+1330.6419 	EXP 	Sound  started
+1334.1469 	DATA 	Keypress: space
+1339.1145 	DATA 	Keypress: space
+1341.2487 	DATA 	Keypress: space
+1345.1835 	DATA 	Keypress: space
+1350.0680 	DATA 	Keypress: space
+1353.0698 	DATA 	Keypress: space
+1358.1875 	DATA 	Keypress: space
+1360.4878 	DATA 	Keypress: space
+1363.2061 	DATA 	Keypress: space
+1370.1091 	DATA 	Keypress: space
+1373.1097 	DATA 	Keypress: space
+1377.1117 	DATA 	Keypress: space
+1380.1124 	DATA 	Keypress: space
+1384.7138 	DATA 	Keypress: space
+1388.2163 	DATA 	Keypress: space
+1392.1340 	DATA 	Keypress: space
+1397.1521 	DATA 	Keypress: space
+1400.6863 	DATA 	Keypress: space
+1403.0541 	DATA 	Keypress: space
+1407.4886 	DATA 	Keypress: space
+1409.1072 	DATA 	Keypress: space
+1414.6752 	DATA 	Keypress: space
+1417.4931 	DATA 	Keypress: space
+1423.1780 	DATA 	Keypress: space
+1425.2454 	DATA 	Keypress: space
+1430.6300 	EXP 	Sound  stopped
+1430.6451 	EXP 	During_trial_text: autoDraw = False
+1431.1451 	EXP 	go_next_text: autoDraw = True
+1432.5315 	DATA 	Keypress: space
+1432.5321 	EXP 	Sound  stopped
+1432.5333 	EXP 	New trial (rep=1, index=3): {'snd': u'seq5v_100sec.wav', 'cond': u'5v'}
+1432.5455 	EXP 	Set  sound=seq5v_100sec.wav
+1432.5456 	EXP 	window1: recordFrameIntervals = False
+1432.5629 	EXP 	During_trial_text: autoDraw = False
+1432.5629 	EXP 	go_next_text: autoDraw = False
+1432.5630 	EXP 	window1: recordFrameIntervals = False
+1433.5798 	EXP 	During_trial_text: autoDraw = True
+1437.5489 	EXP 	Sound  started
+1445.0360 	DATA 	Keypress: space
+1447.9880 	DATA 	Keypress: space
+1455.0572 	DATA 	Keypress: space
+1460.9763 	DATA 	Keypress: space
+1464.0433 	DATA 	Keypress: space
+1468.2280 	DATA 	Keypress: space
+1472.9465 	DATA 	Keypress: space
+1476.5987 	DATA 	Keypress: space
+1480.0487 	DATA 	Keypress: space
+1483.1338 	DATA 	Keypress: space
+1484.1005 	DATA 	Keypress: space
+1490.0359 	DATA 	Keypress: space
+1494.9880 	DATA 	Keypress: space
+1498.0904 	DATA 	Keypress: space
+1503.0103 	DATA 	Keypress: space
+1508.9779 	DATA 	Keypress: space
+1512.9292 	DATA 	Keypress: space
+1518.9483 	DATA 	Keypress: space
+1522.9815 	DATA 	Keypress: space
+1529.0006 	DATA 	Keypress: space
+1532.9350 	DATA 	Keypress: space
+1537.0702 	DATA 	Keypress: space
+1537.5349 	EXP 	Sound  stopped
+1537.5515 	EXP 	During_trial_text: autoDraw = False
+1538.0518 	EXP 	go_next_text: autoDraw = True
+1546.0401 	DATA 	Keypress: space
+1546.0408 	EXP 	Sound  stopped
+1546.0546 	EXP 	During_trial_text: autoDraw = False
+1546.0546 	EXP 	go_next_text: autoDraw = False
+1546.0546 	EXP 	bye_text: autoDraw = True
+1547.0598 	EXP 	window1: mouseVisible = True

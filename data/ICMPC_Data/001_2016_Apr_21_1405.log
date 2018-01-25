@@ -1,0 +1,41 @@
+4.5264 	EXP 	Set Window color=[ 0.  0.  0.] (rgb)
+5.2790 	EXP 	Created Inst_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=180, italic=False, name='Inst_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+5.2989 	EXP 	Created practice_trial_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=300, italic=False, name='practice_trial_text', opacity=1.0, ori=0, pos=array([ 0. ,  0.5]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+5.3919 	EXP 	Set  sound=A
+5.3919 	EXP 	Set Sound  volume=1.000
+5.4229 	EXP 	Created Ready_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=120, italic=False, name='Ready_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+5.4389 	EXP 	Created During_trial_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=120, italic=False, name='During_trial_text', opacity=1.0, ori=0, pos=array([ 0. ,  0.5]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+5.7132 	EXP 	Set  sound=A
+5.7132 	EXP 	Set Sound  volume=1.000
+5.7213 	EXP 	Created go_next_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=120, italic=False, name='go_next_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'Go next?\nhit space bar', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+5.7290 	EXP 	Created bye_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=180, italic=False, name='bye_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'Any text\n\nincluding line breaks', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+5.7329 	EXP 	TextStim: autoLog = None
+5.7329 	EXP 	TextStim: autoLog = None
+5.7329 	EXP 	TextStim: autoLog = None
+5.7329 	EXP 	TextStim: autoLog = None
+5.7329 	EXP 	TextStim: autoLog = None
+5.7329 	EXP 	TextStim: autoLog = None
+5.7329 	EXP 	TextStim: autoDraw = None
+6.3106 	DATA 	Keypress: space
+6.3121 	EXP 	Imported conditions_practice.csv as conditions, 1 conditions, 2 params
+6.3123 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+6.3507 	EXP 	New trial (rep=0, index=0): {'snd': u'seq4v_100sec.wav', 'cond': u'4v'}
+6.3568 	EXP 	Set  sound=seq4v_100sec.wav
+6.3602 	EXP 	TextStim: autoDraw = None
+6.3602 	EXP 	TextStim: autoDraw = None
+8.3439 	DATA 	Keypress: space
+11.3606 	EXP 	Sound  started
+14.0276 	DATA 	Keypress: down
+14.0277 	EXP 	Sound  stopped
+14.0441 	EXP 	TextStim: autoDraw = None
+14.0441 	EXP 	TextStim: autoDraw = None
+16.7277 	DATA 	Keypress: space
+16.7289 	EXP 	Imported conditions.csv as conditions, 4 conditions, 2 params
+16.7292 	EXP 	Created sequence: random, trialTypes=4, nReps=2, seed=None
+16.7305 	EXP 	New trial (rep=0, index=0): {'snd': u'seq5c_100sec.wav', 'cond': u'5c'}
+16.7375 	EXP 	Set  sound=seq5c_100sec.wav
+16.7443 	EXP 	TextStim: autoDraw = None
+17.7494 	EXP 	TextStim: autoDraw = None
+21.7446 	EXP 	Sound  started
+24.2114 	DATA 	Keypress: space
+36.9121 	DATA 	Keypress: escape

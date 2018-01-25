@@ -1,0 +1,27 @@
+around line 281 ... 
+
+
+Insert 
+practice_sound.stop()
+
+
+
+BEFORE
+#-------Ending Routine "practice_trial"-------
+    for thisComponent in practice_trialComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    thisExp.nextEntry()
+ 
+# completed 1 repeats of 'practice_trials'
+
+
+AFTER
+
+#-------Ending Routine "practice_trial"-------
+    for thisComponent in practice_trialComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    thisExp.nextEntry()
+    practice_sound.stop()
+# completed 1 repeats of 'practice_trials'

@@ -1,0 +1,34 @@
+24.2820 	EXP 	Set Window color=[ 0.  0.  0.] (rgb)
+25.1433 	EXP 	Created Inst_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=180, italic=False, name='Inst_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+25.1628 	EXP 	Created practice_trial_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=300, italic=False, name='practice_trial_text', opacity=1.0, ori=0, pos=array([ 0.5,  0. ]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+25.2638 	EXP 	Set  sound=A
+25.2638 	EXP 	Set Sound  volume=1.000
+25.2944 	EXP 	Created Ready_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=120, italic=False, name='Ready_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+25.3104 	EXP 	Created During_trial_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=120, italic=False, name='During_trial_text', opacity=1.0, ori=0, pos=array([ 0.5,  0. ]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+25.5826 	EXP 	Set  sound=A
+25.5826 	EXP 	Set Sound  volume=1.000
+25.5905 	EXP 	Created go_next_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=120, italic=False, name='go_next_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'Go next?\nhit space bar', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+25.5982 	EXP 	Created bye_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=180, italic=False, name='bye_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'Any text\n\nincluding line breaks', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+25.6019 	EXP 	TextStim: autoLog = None
+25.6019 	EXP 	TextStim: autoLog = None
+25.6019 	EXP 	TextStim: autoLog = None
+25.6019 	EXP 	TextStim: autoLog = None
+25.6019 	EXP 	TextStim: autoLog = None
+25.6019 	EXP 	TextStim: autoLog = None
+25.6019 	EXP 	TextStim: autoDraw = None
+29.2745 	DATA 	Keypress: space
+29.2759 	EXP 	Imported conditions_practice.csv as conditions, 1 conditions, 2 params
+29.2762 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+29.3150 	EXP 	New trial (rep=0, index=0): {'snd': u'seq4v_100sec.wav', 'cond': u'4v'}
+29.3214 	EXP 	Set  sound=seq4v_100sec.wav
+29.3247 	EXP 	TextStim: autoDraw = None
+29.3247 	EXP 	TextStim: autoDraw = None
+34.3245 	EXP 	Sound  started
+41.5083 	DATA 	Keypress: space
+45.6085 	DATA 	Keypress: down
+45.6086 	EXP 	Sound  stopped
+45.6251 	EXP 	TextStim: autoDraw = None
+45.6251 	EXP 	TextStim: autoDraw = None
+47.7419 	DATA 	Keypress: down
+49.4089 	DATA 	Keypress: quoteleft
+50.7755 	DATA 	Keypress: escape

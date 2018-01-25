@@ -1,0 +1,39 @@
+14.3647 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x11271ca90>, name='window1', pos=[0, 0], screen=0, size=array([1280,  800]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.3647 	EXP 	window1: recordFrameIntervals = False
+14.5304 	EXP 	window1: recordFrameIntervals = True
+14.7140 	EXP 	window1: recordFrameIntervals = False
+15.0434 	EXP 	Created Inst_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.075, italic=False, name='Inst_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+15.1334 	EXP 	Created practice_trial_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.1, italic=False, name='practice_trial_text', opacity=1.0, ori=0, pos=array([ 0. ,  0.5]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+16.6414 	EXP 	Set  sound=C
+16.6773 	EXP 	Set  sound=A
+16.6774 	EXP 	Sound  set volume 1.000
+16.6952 	EXP 	Created Ready_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.1, italic=False, name='Ready_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+16.7273 	EXP 	Created During_trial_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.1, italic=False, name='During_trial_text', opacity=1.0, ori=0, pos=array([ 0. ,  0.5]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+16.7665 	EXP 	Set  sound=A
+16.7666 	EXP 	Sound  set volume 1.000
+16.7854 	EXP 	Created go_next_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.1, italic=False, name='go_next_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+16.8129 	EXP 	Created bye_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.1, italic=False, name='bye_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+16.8310 	EXP 	Inst_text: autoDraw = True
+21.4878 	DATA 	Keypress: space
+21.5042 	EXP 	Imported conditions_practice.csv as conditions, 1 conditions, 2 params
+21.5052 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+21.5058 	EXP 	New trial (rep=0, index=0): {'snd': u'seq4v_practice.wav', 'cond': u'4v'}
+21.7620 	EXP 	Set  sound=seq4v_practice.wav
+21.7830 	EXP 	Inst_text: autoDraw = False
+21.7830 	EXP 	practice_trial_text: autoDraw = True
+26.5190 	EXP 	Sound  started
+35.9415 	DATA 	Keypress: down
+35.9419 	EXP 	Sound  stopped
+35.9556 	EXP 	practice_trial_text: autoDraw = False
+35.9556 	EXP 	Ready_text: autoDraw = True
+37.5421 	DATA 	Keypress: space
+37.5449 	EXP 	Imported conditions.csv as conditions, 4 conditions, 2 params
+37.5768 	EXP 	Created sequence: random, trialTypes=4, nReps=2, seed=None
+37.5772 	EXP 	New trial (rep=0, index=0): {'snd': u'seq4v_100sec.wav', 'cond': u'4v'}
+38.1375 	EXP 	Set  sound=seq4v_100sec.wav
+38.1377 	EXP 	window1: recordFrameIntervals = False
+38.1554 	EXP 	Ready_text: autoDraw = False
+38.1556 	EXP 	window1: recordFrameIntervals = False
+39.1732 	EXP 	During_trial_text: autoDraw = True
+42.5912 	EXP 	Sound  started
+49.3130 	DATA 	Keypress: escape
